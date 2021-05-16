@@ -1,0 +1,232 @@
+/***********************************Scroll bar styling************************/
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+/**********************************Nav Bar***************************************/
+.navbar_brand_img{
+    height: 3.5rem;
+}
+
+.nav-link{
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: #474747!important;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase!important;
+    letter-spacing: 1px;
+}
+
+.item{
+    width: 200px;
+    line-height: 1px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 2px 2rem;
+    color: #474747!important;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: capitalize!important;
+   
+}
+.item:hover{
+    text-shadow: 0 0 20px rgb(132, 0, 255) ; 
+}
+
+/*********************************Carousel***************************************/
+.banner1{
+    background-image: url(https://www.jpinternational.co.in/wp-content/uploads/2018/10/Laboratories.jpg);
+    height: 83vh!important;
+    background-size: cover;
+    background-position: bottom;
+}
+.banner2{
+    background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F1207671198%2F0x0.jpg);
+    height: 83vh!important;
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+/***************************************Content starting**************************/
+
+.container_no_1{
+    padding: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #824B9E; 
+    height: 150px; 
+    text-align: center;
+    color: white;
+    
+}
+
+.container_no_1 a{
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 0 0 15px rgb(0, 247, 255);
+}
+
+.cont_2_column_2{
+    padding: 10% 5%;
+    background-color: white;
+}
+
+.cont_2_column_2 p{
+    font-size: 1.4rem;
+    line-height: 1.7;
+}
+.cont_2_column_2 a{
+    color:rgb(121, 38, 168); 
+    font-size: 1.4rem;
+}
+
+.container_no_2 div h1{
+    font-family: 'Work Sans', sans-serif;
+    color:rgb(121, 38, 168); 
+}
+
+.container_no_3{
+    text-align: center;
+    background-color: #eccf2c; 
+    color: white;
+    padding: 20px;
+    
+}
+
+.container_no_4{
+    padding: 5% 2%;
+    font-family: 'Work Sans', sans-serif;
+    background-image: linear-gradient(#824B9E, #b26dd4);
+    
+    /*background-color: #824B9E;*/  
+    height: fit-content; 
+    text-align: center;
+    color: white;
+}
+
+.container_no_5{
+    box-shadow: 0 0 15px rgba(128, 128, 128, 0.637);
+}
+.cont_5_column_2{
+    padding: 5% 5%;
+}
+
+
+
+.container_no_6{
+   
+    padding: 10px 1%;
+}
+
+.container_no_6 h3{
+    margin: 15px auto;
+    color: rgb(121, 38, 168);
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+
+.cards_grid{
+    padding: 0 1%;
+}
+
+.our_initiatives_card{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 0;
+    
+}
+
+.card_img_our_initiatives{
+    margin-bottom: 5px;
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+.card_body_our_initiatives{
+    padding: 2px;
+    background-color: #824B9E;
+    text-align: left;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+}
+
+
+.container_no_7{
+    padding: 10px 10px 5%;
+    background-image: linear-gradient(rgba(168, 107, 27, 0.26), rgba(168, 107, 27, 0.377));
+    /*background-color: rgba(168, 107, 27, 0.26);*/
+    box-shadow: 0 0 15px rgba(128, 128, 128, 0.637);
+
+}
+
+.container_no_7 h1{
+    margin: 15px auto;
+    color: rgb(121, 38, 168);
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+.card_body_container_7{
+    padding: 2px;
+    background-color: #824B9E;
+    text-align: left;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.row_container_no_8{
+    background-color: white;
+    height: fit-content;
+}
+
+.awards_head h1{
+    border-bottom: solid;
+    border-width: 0.5px;
+    border-color: rgba(99, 82, 82, 0.199);
+    padding: 8px;
+    color: rgb(121, 38, 168);
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.096);
+}
+
+.footer_container_1{
+    height: 500px;
+    padding: 5%;
+    /*background-image: linear-gradient(rgb(151, 49, 211), rgb(182, 114, 221));*/
+    background-color: #824B9E;
+    color: white;
+}
+
+.footer_container_2{
+    text-align: center;
+    margin-top: 1px;
+    height: fit-content;
+    padding: 15px ;
+    /*background-image: linear-gradient(rgb(151, 49, 211), rgb(182, 114, 221));*/
+    background-color: #824B9E;
+    color: white;
+}
+
+.social_media_buttons{
+    max-width: 30px;
+    margin: 0.5rem auto;
+}
